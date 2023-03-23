@@ -1,0 +1,215 @@
+/* @import url(reset.css); */
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+  padding-top: 42px;
+  padding-bottom: 44px;
+}
+.menu {
+  display: inline-block;
+}
+.menu li {
+  display: inline-block;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+.menu li a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #404040;
+}
+.make {
+  background: url(../img/make-bg.png) center center/cover no-repeat;
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 65px;
+}
+.logo {
+  margin-bottom: 43px;
+  display: inline-block;
+}
+.logo span {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #333333;
+  padding-left: 18px;
+  vertical-align: middle;
+}
+.logo img {
+  vertical-align: middle;
+}
+.make h1 {
+  max-width: 672px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 55px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.line {
+  width: 80px;
+  margin: 0 auto;
+  height: 2px;
+  background-color: #ffffff;
+  margin-top: 28px;
+  margin-bottom: 25px;
+}
+.make h3 {
+  font-family: "Vollkorn", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.81);
+}
+.x {
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.get {
+  background: #fefec9;
+  text-align: center;
+  padding-bottom: 59px;
+}
+.get p {
+  max-width: 940px;
+  margin: 0 auto;
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #47474f;
+  margin-bottom: 39px;
+}
+.get-btn {
+  display: inline-block;
+  padding: 13px 33px 20px 34.5px;
+  border: 1px solid #47474f;
+  border-bottom-width: 2px;
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #47474f;
+}
+
+.brand {
+  text-align: center;
+  padding-top: 79px;
+  padding-bottom: 74px;
+}
+.brand h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.line-brand {
+  background: rgba(0, 0, 0, 0.09);
+  margin-bottom: 93px;
+}
+.brand-title {
+  margin-top: 88px;
+  margin-bottom: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.brand p {
+  max-width: 297px;
+  margin: 0 auto;
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.footer {
+  text-align: center;
+  background: #000000;
+  padding-top: 69px;
+  padding-bottom: 75px;
+}
+.form {
+  max-width: 564px;
+  margin: auto;
+}
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 18px 31px 17px 31px;
+  font-family: "Vollkorn";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.2);
+}
+.form textarea {
+  min-height: 127px;
+  resize: vertical;
+}
+.form input::placeholder,
+.form textarea::placeholder {
+  font-family: "Vollkorn";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  color: #ffffff;
+}
+.form div:nth-child(odd) input {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.form button {
+  font-family: "Vollkorn";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  color: #8bcac3;
+  border: 1px solid #7ec4bd;
+  background-color: transparent;
+  border-bottom-width: 2px;
+  padding: 15px 60px;
+  margin-top: 21px;
+  margin-bottom: 37px;
+}
+.f-logo {
+  display: inline-block;
+}
+.footer p {
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 14px;
+}
